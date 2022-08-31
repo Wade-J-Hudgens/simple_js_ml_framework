@@ -1,0 +1,23 @@
+{
+  "name": "simple_js_ml_library",
+  "version": "1.0.0",
+  "description": "Simple JavaScript library to train and run neural network models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wade-J-Hudgens/simple_js_ml_framework.git"
+  },
+  "keywords": [
+    "machine",
+    "learning"
+  ],
+  "author": "Wade Hudgens",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Wade-J-Hudgens/simple_js_ml_framework/issues"
+  },
+  "homepage": "https://github.com/Wade-J-Hudgens/simple_js_ml_framework#readme"
+}
