@@ -1,12 +1,9 @@
 class ActivationFunctions {
     static Activations = {
         elu: 0,
-        exponential: 1,
-        gelu: 2,
         sigmoid: 3,
         linear: 4,
         relu: 5,
-        selu: 6,
         softmax: 7,
         softplus: 8,
         softsign: 9,
@@ -20,14 +17,6 @@ class ActivationFunctions {
             return Math.exp(z);
         }
         return Math.exp(z) - 1;
-    }
-
-    static Exponential(z, prime=false) {
-         
-    }
-
-    static Gelu(z, prime=false) {
-
     }
 
     static Sigmoid(z, prime=false) {

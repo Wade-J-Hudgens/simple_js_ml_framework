@@ -119,8 +119,9 @@ class LossFunctions {
 
     static SquaredHinge(y_true, y_pred, prime=false) {
         if (prime) {
-            
+            return 1 - y_pred*y_true <= 0 ? 0 : 2 * y_true
         }
+        return Math.pow(Math.max(0, 1 - y_pred*y_true), 2);
     }
 
     static Loss(loss_function, y_true, y_pred, prime=false) {
